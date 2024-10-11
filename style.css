@@ -27,6 +27,9 @@
     align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
+    img{
+        display: none;
+    }
     h2{
         width: 100px;
         color: rgb(65,169,136);
@@ -108,3 +111,72 @@ em{
     margin-top: 200px;
 }
 
+
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+        height: auto; /* Adjust height as needed */
+    }
+
+    .navbar {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        img{
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 0px;
+            right: 30px;
+        }
+
+        ul {
+            
+         
+            display: none;
+        }
+
+        button {
+           margin-left: 0px;
+           left: 10px;
+            width: 20%;
+            position: absolute;
+            font-size: 18px;
+        }
+    }
+
+    .head {
+        margin-left: 20px;
+        margin-top: 40px;
+
+        h1 {
+            font-size: 32px; 
+        }
+
+        p {
+            font-size: 14px; 
+        }
+
+        button {
+            width: 30%; 
+            margin-top: 15px;
+            margin-right: 0;
+        }
+    }
+
+    .image {
+        width: 80px;  
+    }
+
+    .background-image img {
+        height: 300px; 
+        width: auto;
+      
+    }
+
+    .footer {
+        margin-top: 100px; 
+    }
+}
