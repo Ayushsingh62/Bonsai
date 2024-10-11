@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226,241,229);
+}
+.box{
+    width: 60%;
+    height: 700px;
+   
+    background-color: rgb(255,255,255);
+    position: relative;
+    border-radius: 20px;
+
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    h2{
+        width: 100px;
+        color: rgb(65,169,136);
+    }
+    ul{
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 10%;
+        color: rgb(107,107,107);
+        li{
+            list-style: none;
+        }
+    }
+    button{
+        width: 20%;
+        border: none;
+        color:rgb(134,200,179);
+        background-color: rgb(255,255,255);
+        margin-left: 15%;
+    }
+}
+.head{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 40px;
+  
+   
+    h1{
+        color:rgb(44,72,92) ; 
+        line-height: 40px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    p{
+        color: rgb(151,165,175);
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    button{
+        margin-top: 25px;
+        margin-right: 20px;
+        width: 110px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: rgb(237,99,89);
+        color: rgb(250,218,215);
+        border: none;
+    }
+}
+em{
+    color:rgb(50,163,127) ;
+  font-style: normal;
+}
+.image{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.image img{
+    height: 20px;
+    width: 20px;
+    
+}
+.background-image img{
+    height: 600px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  
+}
+.footer{
+    margin-top: 200px;
+}
+
